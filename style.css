@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.preview-img {
+.preview__img {
   width: 100%;
 }
 
-.preview .more-info {
+.preview__info {
   font-family: fantasy, cursive;
 }
 
@@ -28,7 +28,7 @@
 
 }
 
-.main-section {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.new-task-wrapper {
+.add-item__new-task-wrapper {
   display: flex;
 }
 
@@ -75,7 +75,7 @@
 
 /* Heading */
 .h3,
-.new-task-label {
+.add-item__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,7 +85,7 @@
   text-transform: uppercase;
 }
 
-.input-task {
+.task_input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -98,17 +98,17 @@
   color: #888;
 }
 
-.input-task:focus {
+.task_input:focus {
   color: #333;
 }
 
 /* New Task */
-.new-task-label {
+.add-item__label {
   display: block;
   margin: 0 0 20px;
 }
 
-.input-task-new {
+.task_input_new {
   width: 318px;
 }
 
@@ -138,17 +138,17 @@
   width: 226px;
 }
 
-.input-task-exist {
+.task_input_exist {
   width: 226px;
 }
 
-.delete-img {
+.button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-img:hover {
+.button__img:hover {
   transform: rotateZ(0);
 }
 
@@ -159,11 +159,11 @@
 }
 
 /* Edit Task */
-.input-task-exist {
+.task_input_exist {
   display: none;
 }
 
-.edit-mode .input-task {
+.edit-mode .task_input {
   display: inline-block;
   width: 224px;
 }
