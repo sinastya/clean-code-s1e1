@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.todo-item, .h3 {
+.todo-item,
+.h3 {
   list-style: none;
 }
 
-.task,.button{
+.task,
+.button{
   outline: none;
 }
 
