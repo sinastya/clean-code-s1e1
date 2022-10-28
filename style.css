@@ -4,46 +4,59 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .preview {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .preview-img {
   width: 100%;
 }
+
 .preview .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .preview { text-align: center;
+
+  .preview {
+    text-align: center;
+  }
+
 }
-}
+
 .main-section {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .new-task-wrapper {
   display: flex;
 }
+
 .added-tasks {
   margin:0;
   padding: 0px;
 }
+
 .todo-item, .h3 {
   list-style:none;
 }
+
 .task,.button{
   outline:none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -53,9 +66,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .h3,
 .new-task-label {
@@ -67,6 +82,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input-task {
   margin: 0;
   font-size: 18px;
@@ -79,6 +95,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input-task:focus {
   color: #333;
 }
@@ -88,6 +105,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .input-task-new {
   width: 318px;
 }
@@ -102,6 +120,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .todo-item > * {
   vertical-align: middle;
 }
@@ -109,20 +128,24 @@
 .todo-checkbox {
   margin: 0 10px;
 }
+
 .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .input-task-exist {
   width: 226px
 }
+
 .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-img img:hover {
   transform: rotateZ(0);
 }
