@@ -20,7 +20,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .preview {
     text-align: center;
@@ -45,16 +45,16 @@
 }
 
 .added-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .todo-item, .h3 {
-  list-style:none;
+  list-style: none;
 }
 
 .task,.button{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -158,14 +158,14 @@
 
 /* Edit Task */
 .input-task-exist {
-  display:none
+  display: none
 }
 
 .edit-mode .input-task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task-label {
-  display:none;
+  display: none;
 }
